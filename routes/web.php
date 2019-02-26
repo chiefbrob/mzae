@@ -20,7 +20,6 @@ Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 Route::group(['middleware' => 'cors'], function() {
 
    Route::post('/web-api/{endpoint}', 'ApiController@api')->name('api');
-   Route::post('/drivers-api/{endpoint}', 'DriverController@api')->name('driversapi');
    
 });
 

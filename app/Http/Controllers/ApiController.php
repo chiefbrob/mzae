@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\DB;
 use App\Contact;
 use App\User;
 use Carbon\Carbon;
+use Image;
 
 class ApiController extends Controller
 {
